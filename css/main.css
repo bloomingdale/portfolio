@@ -40,13 +40,35 @@ video {
     opacity: .4;
 }
 
-.digital {
-    height: 15%;
-    width: 15%;
+#bassclef {
+    height: 10%;
+    width: 10%;
     float: right;
-    display: block;
+    position: absolute;
+    bottom: 83%;
+    left: 80%;
     
 }
+#pheonix {
+    height: 11%;
+    width: 13%;
+    float: right;
+    position: absolute;
+    bottom: 70%;
+    left: 78%;
+    
+}
+
+#world2design {
+    height: 11%;
+    width: 10%;
+    float: right;
+    position: absolute;
+    bottom: 55%;
+    left: 80%;
+    
+}
+
 .slide {
   position: relative;
   padding: 25vh 10%;
