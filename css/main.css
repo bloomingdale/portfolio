@@ -40,6 +40,13 @@ video {
     opacity: .4;
 }
 
+.digital {
+    height: 15%;
+    width: 15%;
+    float: right;
+    display: block;
+    
+}
 .slide {
   position: relative;
   padding: 25vh 10%;
@@ -52,7 +59,7 @@ video {
 
 .moon {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 35%;
   width: 320px;
   height: 240px;
@@ -83,6 +90,8 @@ video {
 .building:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(30%) rotate(10deg);
 }
+
+
 .cityscape {
   position: absolute;
   top: 50%;
@@ -100,6 +109,39 @@ video {
   transform: translateZ(.4px) scale(.6) translateX(0%) translateY(-30%) rotate(5deg);
 }
 
+.storm {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 40%;
+  height: 40%;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(10deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.storm:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(0%) translateY(-30%) rotate(5deg);
+}
+
+.library {
+  position: absolute;
+  bottom: 20%;
+  left: 75%;
+  width: 40%;
+  height: 20%;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.library:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(30%) rotate(10deg);
+}
 .social {
      border-radius: 8px;
      height: 12%;

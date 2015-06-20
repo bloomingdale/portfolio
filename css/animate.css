@@ -3111,7 +3111,7 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.slideInRight {
+.slideInRight{
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
 }
